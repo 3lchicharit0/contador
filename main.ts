@@ -10,6 +10,6 @@ basic.forever(function () {
         HORA += 1
     }
     if (HORA == 12) {
-        HORA += 1
+        HORA = 1
     }
 })
